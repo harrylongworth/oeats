@@ -71,6 +71,10 @@ https://www.raspberrypi.org/documentation/remote-access/vnc/
 
 goaccess -f /var/log/apache2/access.log -a
 
+# Improve Index listing view?
+
+https://perishablepress.com/better-default-directory-views-with-htaccess/
+
 
 
 
