@@ -31,6 +31,15 @@ https://www.raspberrypi.org/forums/viewtopic.php?t=33708&p=350253
 sudo iptables -t nat -A PREROUTING -d 0/0 -p tcp --dport 80 -j DNAT --to-destination 192.168.42.1:80
 
 where 192.168.42.1 is the PI address
+- NO that didn't work
+
+Try below after installing dnsmasq:
+
+http://serverfault.com/questions/351108/using-dnsmasq-to-resolve-all-hosts-to-the-same-address
+
+which results in 
+address=/#/192.168.2.1
+in the /etc/dnsmasq.conf file
 
 # Download Youtube?
 savemedia.com
