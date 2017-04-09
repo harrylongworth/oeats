@@ -63,7 +63,9 @@ will remove the binaries, but not the configuration or data files of the package
 apt-get purge packagename or apt-get remove --purge packagename
 will remove about everything regarding the package packagename, but not the dependencies installed with it on installation. Both commands are equivalent.
 
+# Use VNC
 
+https://www.raspberrypi.org/documentation/remote-access/vnc/
 
 
 
