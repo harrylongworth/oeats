@@ -67,6 +67,9 @@ will remove about everything regarding the package packagename, but not the depe
 
 https://www.raspberrypi.org/documentation/remote-access/vnc/
 
+# Try GoAccess for web analytics
+
+goaccess -f /var/log/apache2/access.log -a
 
 
 
